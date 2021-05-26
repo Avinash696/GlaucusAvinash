@@ -15,6 +15,7 @@ public interface ApiInterface {
 
 //    @GET("https://api.openweathermap.org/data/2.5/weather?q=lucknow&appid=e1991533deb53055ab7b41c85f79680d")
 //    private getAll();
+    //api.openweathermap.org/data/2.5/weather?lat={lat}&lon={lon}&appid=e1991533deb53055ab7b41c85f79680d
 
     @GET("?&appid=e1991533deb53055ab7b41c85f79680d")
     Call<Example> getMainData(@Query("q") String name);
@@ -27,4 +28,6 @@ public interface ApiInterface {
 
     @GET("?&appid=e1991533deb53055ab7b41c85f79680d")
     Call<Exampli> getExampli(@Query("q") String name);
+    @GET("?&&appid=e1991533deb53055ab7b41c85f79680d")
+    Call<Exampli> getLatitude(@Query("lat") Double lat,@Query("lon") Double lon);
 }
