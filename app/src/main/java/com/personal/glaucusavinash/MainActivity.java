@@ -1,4 +1,4 @@
-package com.example.glaucusavinash;
+package com.personal.glaucusavinash;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,9 +19,9 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.glaucusavinash.Interface.ApiInterface;
-import com.example.glaucusavinash.NewModel.Exampli;
-import com.example.glaucusavinash.Singleton.APIClient;
+import com.personal.glaucusavinash.Interface.ApiInterface;
+import com.personal.glaucusavinash.NewModel.Exampli;
+import com.personal.glaucusavinash.Singleton.APIClient;
 import com.google.android.gms.location.FusedLocationProviderClient;
 import com.google.android.gms.location.LocationServices;
 import com.google.android.gms.tasks.OnCompleteListener;

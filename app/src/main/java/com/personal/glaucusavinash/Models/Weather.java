@@ -1,4 +1,4 @@
-package com.example.glaucusavinash.Models;
+package com.personal.glaucusavinash.Models;
 
 import com.google.gson.annotations.SerializedName;
 

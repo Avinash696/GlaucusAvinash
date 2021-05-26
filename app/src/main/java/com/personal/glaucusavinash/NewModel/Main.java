@@ -1,5 +1,5 @@
 
-package com.example.glaucusavinash.NewModel;
+package com.personal.glaucusavinash.NewModel;
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;
 

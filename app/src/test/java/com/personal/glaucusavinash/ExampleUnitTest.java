@@ -1,4 +1,4 @@
-package com.example.glaucusavinash;
+package com.personal.glaucusavinash;
 
 import org.junit.Test;
 

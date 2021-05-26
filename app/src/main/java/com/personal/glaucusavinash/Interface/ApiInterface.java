@@ -1,10 +1,9 @@
-package com.example.glaucusavinash.Interface;
+package com.personal.glaucusavinash.Interface;
 
-import com.example.glaucusavinash.ExampleModels.Eexamples;
-import com.example.glaucusavinash.Models.Example;
-import com.example.glaucusavinash.Models.Example2;
-import com.example.glaucusavinash.Models.Weather;
-import com.example.glaucusavinash.NewModel.Exampli;
+import com.personal.glaucusavinash.ExampleModels.Eexamples;
+import com.personal.glaucusavinash.Models.Example;
+import com.personal.glaucusavinash.Models.Example2;
+import com.personal.glaucusavinash.NewModel.Exampli;
 
 import retrofit2.Call;
 import retrofit2.http.GET;

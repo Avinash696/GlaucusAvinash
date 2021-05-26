@@ -1,4 +1,4 @@
-package com.example.glaucusavinash.ExampleModels;
+package com.personal.glaucusavinash.ExampleModels;
 
 public class Wweather {
     String description;

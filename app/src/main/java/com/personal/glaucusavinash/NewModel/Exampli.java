@@ -1,5 +1,5 @@
 
-package com.example.glaucusavinash.NewModel;
+package com.personal.glaucusavinash.NewModel;
 
 import java.util.List;
 import com.google.gson.annotations.Expose;
