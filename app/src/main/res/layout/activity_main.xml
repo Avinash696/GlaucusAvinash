@@ -9,14 +9,14 @@
     tools:context=".MainActivity"
     android:padding="20dp">
 
-<TextView
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="feels like "
-    android:id="@+id/tvFeellike"
-    android:textColor="#D53939"
-    android:textStyle="bold"
-    android:layout_above="@+id/rvSecondMain"/>
+    <TextView
+        android:id="@+id/tvFeellike"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/rvSecondMain"
+        android:text="Location"
+        android:textColor="#D53939"
+        android:textStyle="bold" />
 
 <RelativeLayout
     android:layout_width="wrap_content"

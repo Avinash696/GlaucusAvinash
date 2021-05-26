@@ -49,19 +49,9 @@ public class MainActivity extends AppCompatActivity {
         ivSearch = findViewById(R.id.ivSearch);
     }
 
+
     private void weatherData(String name) {
         ApiInterface apiInterface = APIClient.getClient().create(ApiInterface.class);
-//        Call<Example2> weatherClass = apiInterface.getWeatherDesc(name);
-//        Call<Example> call = apiInterface.getMainData(name);
-//        call.enqueue(new Callback<Example>() {
-//            @Override
-//            public void onResponse(Call<Example> call, Response<Example> response) {
-//                Main res = response.body().getMain();
-//                Double temp = Double.parseDouble(res.getTemp()) - 273.0;
-//                tvTemp.setText("Temp=" + temp.toString());
-//                tvDesc.setText(res.getFeels_like());
-//                tvHumidity.setText(res.getHumidity());
-//
 
     Call<Exampli> call=apiInterface.getExampli(name);
     call.enqueue(new Callback<Exampli>() {
@@ -71,7 +61,8 @@ public class MainActivity extends AppCompatActivity {
             Double temp = Double.parseDouble(String.valueOf(ex.getMain().getTemp())) - 273.0;
             tvTemp.setText("Temp=" + temp.toString());
             tvHumidity.setText("Humidity = "+ex.getMain().getHumidity());
-            tvDesc.setText("Description ="+ex.getWeather().get(0));
+            tvDesc.setText("Description ="+ex.getWeather().get(0).getDescription());
+            tvFeellike.setText(ex.getSys().getCountry());
         }
 
         @Override
